@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/5f59ca6ad3.js" crossorigin="anonymous"></script>
+    <link rel = "stylesheet" href = "calci.css"/>
+</head>
+<body>
+    <div class = "bgcontainer d-flex flex-column justify-content-center">
+        <div class = "calculator">
+            <div>
+                <input type = "text" class = "text_input" id = "displayOutput" placeholder = "0"/>
+            </div>
+            <div>
+                <button onclick = "clearnum()" style = "background-color:burlywood">AC</button>
+                <button onclick = "deletenum()" style = "background-color:burlywood">DE</button>
+                <button onclick = "addingDot()" style = "background-color:burlywood">.</button>
+                <button onclick = "addingDivision()" style = "background-color:burlywood">/</button>
+
+            </div>
+            <div>
+                <button onclick = "addingInput(7)">7</button>
+                <button onclick = "addingInput(8)">8</button>
+                <button onclick = "addingInput(9)">9</button>
+                <button onclick = "addingMultiply()" style = "background-color:burlywood">x</button>
+
+            </div>
+            <div>
+                <button onclick = "addingInput(4)">4</button>
+                <button onclick = "addingInput(5)">5</button>
+                <button onclick = "addingInput(6)">6</button>
+
+                <button onclick = "addingMinus()" style = "background-color:burlywood">-</button>
+
+            </div>
+            <div>
+                <button onclick = "addingInput(1)">1</button>
+                <button onclick = "addingInput(2)">2</button>
+                <button onclick = "addingInput(3)">3</button>
+                <button onclick = "addingPlus()" style = "background-color:burlywood">+</button>
+
+            </div>
+            <div>
+                <button onclick = "addinghundreds()" >00</button>
+                <button onclick = "addingInput(0)">0</button>
+                <button class = "equal_button" onclick = "calculation()" style = "background-color:burlywood">=</button>
+                
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+<script src = "calci.js"></script>
+<html>

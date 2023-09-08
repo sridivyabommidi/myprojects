@@ -1,0 +1,44 @@
+.bgcontainer{
+    background-image:linear-gradient(cadetblue,burlywood);
+    height:100vh;
+    padding:10px;
+
+}
+.calculator{
+   background-color:black;
+   padding:20px;
+   margin:auto;
+   border-radius:30px;
+   
+}
+.text_input{
+   width:210px;
+   height:60px;
+   margin-bottom:10px;
+   border-radius:10px;
+   text-align:right;
+   margin-top:30px;
+   font-family:fantasy;
+   
+}
+button{
+   height:45px;
+   width:45px;
+   margin:2px;
+   border-radius:100%;
+   margin-bottom:10px;
+   border-width:0px;
+   font-family: fantasy;
+   
+   
+
+
+}
+.equal_button{
+   height:50px;
+   width:100px;
+   border-radius:10%;
+   margin-bottom:10px;
+   border-width:0px;
+   font-family: fantasy;
+}
